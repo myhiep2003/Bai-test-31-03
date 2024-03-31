@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ thống bình luận</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="comment-container">
+    <h1>Đánh giá</h1>
+    <div id="comment-list">
+      </div>
+    <div id="comment-form-container">
+      <h2>Đăng đánh giá mới</h2>
+      <form id="comment-form">
+        <div>
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="comment">Bình luận:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+        </div>
+        <button type="submit">Đăng bình luận</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
